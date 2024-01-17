@@ -1,16 +1,16 @@
-#RecSys Challenge
+# RecSys Challenge
 
-##Overview
+## Overview
 RecSys Challenge is a machine learning project aimed at providing solutions for the Titanic survival prediction problem. The project leverages modern software engineering practices and includes a command-line interface (CLI) for easy interaction, alongside a robust development environment managed with Poetry.
 
-##Getting Started
+## Getting Started
 
-###Prerequisites
+### Prerequisites
 
 * Python 3.11 or higher
 * Poetry for dependency management (You have to [install it](https://python-poetry.org/docs/#installing-with-the-official-installer) depending on your OS)
 
-###Installation
+### Installation
 
 1. Clone the Repository:
 
@@ -54,13 +54,13 @@ poetry run python src/cli.py FILE_PATH [OPTIONS]
 
 --metric METRIC: Choose an evaluation metric. Options are accuracy, precision, recall, f1, and all for a full report.
 
-###Example Usage:
+### Example Usage:
 
 poetry run python src/cli.py ./data/train.csv --model logistic_regression --metric all 
 
 This command will run the logistic regression model on the data provided in ./data/train.csv and evaluate it using all available metrics.
 
-##Development
+## Development
 
 * Jupyter Notebooks: 
 If you're using Jupyter notebooks for development, you can
@@ -69,9 +69,9 @@ start Jupyter Lab using the Makefile command make jupyter. This is useful for ex
 * Code Formatting: 
 To maintain code quality and consistency, the project uses flake8 for linting, black for code formatting, isort for import sorting, and mypy for type checking. You can run these tools via the Makefile.
 
-##Testing
+## Testing
 
 Tests are an integral part of the project. To run all tests, use the Makefile command make test. Make sure to write tests when adding new features or fixing bugs.
 
-##Contributing
+## Contributing
 Contributions to the project are welcome. Please adhere to the project's code style guidelines and write tests for new features or bug fixes. For major changes, please open an issue first to discuss what you would like to change.
