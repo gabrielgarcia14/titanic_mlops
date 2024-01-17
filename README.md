@@ -16,8 +16,11 @@ Titanic MLOps is a machine learning project aimed at providing solutions for the
 
 ```bash 
 git clone https://github.com/gabrielgarcia14/titanic_mlops.git
+```
+```bash 
 cd titanic_mlops
 ```
+
 2. Install dependencies with Poetry
 
 ```bash
