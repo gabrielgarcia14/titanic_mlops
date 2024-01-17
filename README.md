@@ -1,7 +1,7 @@
-# RecSys Challenge
+# Titanic MLOps
 
 ## Overview
-RecSys Challenge is a machine learning project aimed at providing solutions for the Titanic survival prediction problem. The project leverages modern software engineering practices and includes a command-line interface (CLI) for easy interaction, alongside a robust development environment managed with Poetry.
+Titanic MLOps is a machine learning project aimed at providing solutions for the Titanic survival prediction problem. The project leverages modern software engineering practices and includes a command-line interface (CLI) for easy interaction, alongside a robust development environment managed with Poetry.
 
 ## Getting Started
 
